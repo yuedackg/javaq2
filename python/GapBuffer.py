@@ -53,6 +53,10 @@ class GapBuffer():
         print("self.gapSize:",self.gapSize)
         print( "----")
 
+class Editor():
+    def __init__( self, text):
+        buf = GapBuffer( text)
+
 #
 mem = GapBuffer( "hello")
 mem.insert( 2,"a")

@@ -21,3 +21,6 @@ buffer = list( range(30))
 print( buffer )
 newGapOffset = 5
 gapSize = 3
+
+del buffer[gapSize:newGapOffset]
+print(buffer)
