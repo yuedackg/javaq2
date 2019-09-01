@@ -17,13 +17,19 @@ public class GapBuffer {
 		
 	}
 	void delete( int offset) {
-		
+		if(length() == 0)
+			return ;
+		confirmGap( offset + 1);
+		gapOffset--;
+		gapSize++;
 	}
 	char charAt( int offset) {
-		
+		if(offset >= gapOffset)
+			offset += ;
+		return buffer[offset];
 	}
 	int length( ) {
-		return 	;
+		return 	buffer.length;
 	
 	}
 	private void confirmGap( int newGapOffset) {

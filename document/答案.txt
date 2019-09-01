@@ -1,0 +1,17 @@
+(a)gapSize--
+confirtmGap（）で、offset番目に場所を開け、
+buffer[gapOffset++]=chで、文字を格納すると同時に、ぎゃぷの開始位置をずらし、
+gapSize--で、文字を入れた分のギャプサイズを小さくする。
+
+（b）gapSize
+先頭文字からoffset番目を数えるときに、間にギャップが入った場合には、その分場所をずらす必要がある。
+
+(c) buffer.length - gapSize
+クラスGapBufferのコンストラクタでは、初期文字列のサイズに文字列のサイズを加えた長さを生成している。
+
+(d)gapBuffer 
+
+(e)cursor
+
+(f)cursor++
+

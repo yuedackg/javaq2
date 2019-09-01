@@ -30,14 +30,19 @@ public class Editor {
 			
 		}
 	}
+	private void moveCursor(int n) {
+		// TODO Auto-generated method stub
+		
+	}
 }
 
 class CharReader{
+	public static final char EOF = 0;
 	static final int MOVE_FORWARD = 1;
 	static final int MOVE_BACKWARD = 2;
 	static final int DELETE = 3;
 	static final int INSERT = 3;
-	public   char get() {
+	public static   char get() {
 		return 0;
 		
 	}
